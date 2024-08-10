@@ -1,0 +1,109 @@
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.passwordDetails-cont {
+  padding: 1rem 1rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+
+  height: 12rem;
+  width: 30rem;
+}
+
+.websiteInitial {
+  font-size: 2rem;
+  border-radius: 50%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.password-info {
+  color: white;
+  flex-grow: 1;
+  letter-spacing: 2px;
+  font-family: roboto;
+}
+
+.website {
+  font-size: 2rem;
+  margin-bottom: -12px;
+}
+
+.username {
+  font-size: 1.6rem;
+}
+
+.password {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+
+.star-img {
+  height: 1.4rem;
+  object-fit: cover;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.delete-btn img {
+  height: 3rem;
+  width: 3rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.yellow {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.red {
+  background-color: #b91c1c;
+  color: white;
+}
+
+.green {
+  background-color: #10b981;
+  color: white;
+}
+
+.orange {
+  background-color: #f97316;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.grey {
+  background-color: grey;
+  color: white;
+}
+
+.goldenorange {
+  background-color: goldenrod;
+  color: white;
+}
